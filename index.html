@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kingone Project</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .background-image {
+        background-image: url("img/background-image.png");
+        width: 1920px;
+        height: 1080px;
+        padding: 67.9px 247.4px 44.6px 244.6px;
+        background-size: contain;
+        overflow: hidden;
+      }
+      .container {
+        margin-left: 277px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      img.prev-btn {
+        width: 66.7px;
+        height: 66.7px;
+        object-fit: contain;
+      }
+      img.stall-image-green {
+        width: 1428px;
+        height: 966.2px;
+        margin: 0.2px 0 1px;
+        object-fit: contain;
+      }
+      img.logo {
+        width: 124.9px;
+        height: 81.9px;
+        position: absolute;
+        margin: 125px 13.2px 253.3px 398.3px;
+        object-fit: contain;
+      }
+      img.banner {
+        width: 713.7px;
+        height: 399.6px;
+        position: absolute;
+        margin: 456.7px 127.9px 46.5px 325.5px;
+        object-fit: contain;
+      }
+      .text-container {
+        margin-top: 128px;
+        margin-left: 570px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      span.title {
+        width: 561.3px;
+        height: 51px;
+        font-family: "MicrosoftYaHeiBold-GBpc-EUC-H";
+        font-size: 41.7px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: 8.35px;
+        text-align: center;
+        color: #333;
+      }
+      span.sub-title {
+        width: 563.3px;
+        height: 34px;
+        padding-top: 10px;
+        font-family: "MicrosoftYaHeiGBpc-EUC-H";
+        font-size: 30.1px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.81;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-image">
+      <div class="container">
+        <img
+          class="prev-btn"
+          src="img/prev-btn.png"
+          srcset="img/prev-btn@2x.png 2x, img/prev-btn@3x.png 3x"
+        />
+        <img
+          class="stall-image-green"
+          src="img/stall-image-green.png"
+          srcset="
+            img/stall-image-green@2x.png 2x,
+            img/stall-image-green@3x.png 3x
+          "
+        />
+        <img
+          class="logo"
+          src="img/logo.png"
+          srcset="img/logo@2x.png 2x, img/logo@3x.png 3x"
+        />
+        <img
+          class="banner"
+          src="img/banner.png"
+          srcset="img/banner@2x.png 2x, img/banner@3x.png 3x"
+        />
+        <div class="text-container">
+          <span class="title"> 流亞科技股份有限公司 </span>
+          <span class="sub-title"> Logic Art Automation Co., Ltd </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
