@@ -51,6 +51,59 @@
         margin: 456.7px 127.9px 46.5px 325.5px;
         object-fit: contain;
       }
+      img.pic {
+        width: 170.2px;
+        height: 170.2px;
+        position: absolute;
+        margin: 491.4px 0 0 50px;
+        object-fit: cover;
+      }
+      img.products-list-green {
+        width: 357.1px;
+        height: 87.6px;
+        position: absolute;
+        margin: 780.5px 290.7px 0 13.2px;
+        object-fit: contain;
+      }
+      img.products-list-hand {
+        width: 43.9px;
+        height: 54.9px;
+        position: absolute;
+        margin: 975.8px 0 0 830.7px;
+        object-fit: contain;
+        z-index: 10;
+      }
+      img.products-list-hand :hover {
+        cursor: pointer;
+      }
+      img.acr-image {
+        width: 273.1px;
+        height: 353.8px;
+        position: absolute;
+        margin: 399.6px 0 0 1067.9px;
+        padding: 77.8px 22.3px 39.8px 35.8px;
+        object-fit: contain;
+      }
+      .board-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 515.6px 0 0 1137.9px;
+      }
+      img.web {
+        position: absolute;
+        width: 52.6px;
+        height: 52.6px;
+        margin: 470.6px 0 0 1290.9px;
+        object-fit: contain;
+        z-index: 10;
+      }
+      .board-container span {
+        font-family: "NotoSansCJKTC";
+        padding: 5px 0;
+      }
       .text-container {
         margin-top: 128px;
         margin-left: 570px;
@@ -98,14 +151,6 @@
           srcset="img/prev-btn@2x.png 2x, img/prev-btn@3x.png 3x"
         />
         <img
-          class="stall-image-green"
-          src="img/stall-image-green.png"
-          srcset="
-            img/stall-image-green@2x.png 2x,
-            img/stall-image-green@3x.png 3x
-          "
-        />
-        <img
           class="logo"
           src="img/logo.png"
           srcset="img/logo@2x.png 2x, img/logo@3x.png 3x"
@@ -115,7 +160,75 @@
           src="img/banner.png"
           srcset="img/banner@2x.png 2x, img/banner@3x.png 3x"
         />
+        <img
+          class="pic"
+          src="img/pic.png"
+          srcset="img/pic@2x.png 2x, img/pic@3x.png 3x"
+        />
+        <img
+          class="stall-image-green"
+          src="img/stall-image-green.png"
+          srcset="
+            img/stall-image-green@2x.png 2x,
+            img/stall-image-green@3x.png 3x
+          "
+        />
+        <img
+          src="img/products-list-hand.png"
+          srcset="
+            img/products-list-hand@2x.png 2x,
+            img/products-list-hand@3x.png 3x
+          "
+          class="products-list-hand"
+        />
+        <img
+          src="img/acr-image.png"
+          srcset="img/acr-image@2x.png 2x, img/acr-image@3x.png 3x"
+          class="acr-image"
+        />
+        <img
+          src="img/web.png"
+          srcset="img/web@2x.png 2x, img/web@3x.png 3x"
+          class="web"
+        />
+        <div class="board-container">
+          <img
+            src="img/email.png"
+            srcset="img/email@2x.png 2x, img/email@3x.png 3x"
+            class="email"
+          />
+          <span class="Email"> joseph.lo@logicart.com.tw </span>
+          <img
+            src="img/tel.png"
+            srcset="img/tel@2x.png 2x, img/tel@3x.png 3x"
+            class="tel"
+          />
+          <span class="TEL"> +886-2-2999-2899 </span>
+          <img
+            src="img/fax.png"
+            srcset="img/fax@2x.png 2x, img/fax@3x.png 3x"
+            class="fax"
+          />
+          <span class="FAX"> +886-2-2999-2893 </span>
+          <img
+            src="img/add.png"
+            srcset="img/add@2x.png 2x, img/add@3x.png 3x"
+            class="add"
+          />
+          <span class="ADD">
+            8F-7, No.16, Lane 609, Sec.5, Chung-Shin Road, San-Chung Dist., New
+            Taipei City, Taiwan
+          </span>
+        </div>
         <div class="text-container">
+          <img
+            src="img/products-list-green.png"
+            srcset="
+              img/products-list-green@2x.png 2x,
+              img/products-list-green@3x.png 3x
+            "
+            class="products-list-green"
+          />
           <span class="title"> 流亞科技股份有限公司 </span>
           <span class="sub-title"> Logic Art Automation Co., Ltd </span>
         </div>
